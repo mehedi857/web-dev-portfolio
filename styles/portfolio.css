@@ -24,7 +24,9 @@
    padding: 18px 35px;
    border-radius: 5px;
    border: none;
+   
 }
+
 .section-titel{
     font-size: 35px;
     font-weight: bold;
@@ -34,6 +36,8 @@
     margin-top: 100px;
     text-align: center; 
     padding: 18px 35px 20px;
+    margin: 200px;
+   
 }
 .section-descroption{
     font-size: 18px;
@@ -147,6 +151,47 @@ main{
 .skill{
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0,0,0.06);
+    /* box-shadow: 0px 6px 50px 0px rgba(0, 0,0,0.06); */
+    box-shadow: 0px 6px 50px 0px rgb(124, 80, 48) ;
     
+}
+.skills{
+    background-color: #FFF8F3;
+}
+
+
+
+/* resume-contsiner */
+.resume-contsiner{
+    display: flex;
+    gap: 24px;
+}
+.experience-dis{
+    color: #757575;
+}
+.experience-sub-tittle{
+    color:#757575 ;
+    font-size: 20px;
+}
+.resume-column-tittle{
+    background-color:  saddlebrown;
+    border-radius: 10px;
+    margin-right: 50%;
+    text-align: center;
+}
+.swction-tittle{
+    text-align: center;
+    background-color:  saddlebrown;
+    margin: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius:  10px;
+}
+
+.resume{
+    margin-top: 100px;
+}
+.text-center{
+    text-align: center;
+    margin-top: 20px;
 }
